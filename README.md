@@ -30,23 +30,9 @@ Hands-on AWS project focused on building and securing a small migration-style cl
 - Listed and read the private S3 object from EC2
 - Re-tested access after reducing S3 permissions
 
-## Evidence
-
-### VPC Architecture
-![VPC Resource Map](screenshots/01-vpc-resource-map.png)
-
-### EC2 Web Server
-![EC2 Web Server](screenshots/02-ec2-web-server.png)
-
-### Security Group
-![Security Group Rules](screenshots/03-security-group-rules.png)
-
-### IAM Role and Private S3 Access
-![IAM and S3 Access](screenshots/04-iam-s3-access.png)
-
 ## Production Improvements
 
-For a production deployment I would:
+For a production deployment, I would:
 - use HTTPS/TLS on TCP 443
 - remove direct public SSH where possible
 - keep backend workloads in private subnets
